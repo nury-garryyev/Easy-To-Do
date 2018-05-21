@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		C76FB97920B15483008FAE4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FB97820B15483008FAE4F /* AppDelegate.swift */; };
-		C76FB97B20B15483008FAE4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FB97A20B15483008FAE4F /* ViewController.swift */; };
+		C76FB97B20B15483008FAE4F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FB97A20B15483008FAE4F /* CategoryViewController.swift */; };
 		C76FB97E20B15483008FAE4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76FB97C20B15483008FAE4F /* Main.storyboard */; };
 		C76FB98020B15483008FAE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76FB97F20B15483008FAE4F /* Assets.xcassets */; };
 		C76FB98320B15483008FAE4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76FB98120B15483008FAE4F /* LaunchScreen.storyboard */; };
+		C76FB99020B15568008FAE4F /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FB98F20B15568008FAE4F /* TodoListViewController.swift */; };
+		C76FB99220B1558F008FAE4F /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FB99120B1558F008FAE4F /* SwipeTableViewController.swift */; };
+		C76FB99420B155C3008FAE4F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FB99320B155C3008FAE4F /* Category.swift */; };
+		C76FB99620B155D8008FAE4F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FB99520B155D8008FAE4F /* Item.swift */; };
+		CBDFCFB9FB8AC4EE3EE64771 /* Pods_Easy_To_Do.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E341E0D5F3B1B7DBBE24D4D9 /* Pods_Easy_To_Do.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D721DA7DC582FE6D710BFF3 /* Pods-Easy To-Do.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy To-Do.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Easy To-Do/Pods-Easy To-Do.debug.xcconfig"; sourceTree = "<group>"; };
+		51F21792D1406E58EE2ED402 /* Pods-Easy To-Do.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy To-Do.release.xcconfig"; path = "Pods/Target Support Files/Pods-Easy To-Do/Pods-Easy To-Do.release.xcconfig"; sourceTree = "<group>"; };
 		C76FB97520B15483008FAE4F /* Easy To-Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy To-Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C76FB97820B15483008FAE4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C76FB97A20B15483008FAE4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C76FB97A20B15483008FAE4F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		C76FB97D20B15483008FAE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C76FB97F20B15483008FAE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C76FB98220B15483008FAE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C76FB98420B15483008FAE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76FB98F20B15568008FAE4F /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		C76FB99120B1558F008FAE4F /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		C76FB99320B155C3008FAE4F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C76FB99520B155D8008FAE4F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E341E0D5F3B1B7DBBE24D4D9 /* Pods_Easy_To_Do.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easy_To_Do.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBDFCFB9FB8AC4EE3EE64771 /* Pods_Easy_To_Do.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86B5FC2B8493F1D1700D5463 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D721DA7DC582FE6D710BFF3 /* Pods-Easy To-Do.debug.xcconfig */,
+				51F21792D1406E58EE2ED402 /* Pods-Easy To-Do.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF150C2869DE20A8DEBB3E0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E341E0D5F3B1B7DBBE24D4D9 /* Pods_Easy_To_Do.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C76FB96C20B15483008FAE4F = {
 			isa = PBXGroup;
 			children = (
 				C76FB97720B15483008FAE4F /* Easy To-Do */,
 				C76FB97620B15483008FAE4F /* Products */,
+				86B5FC2B8493F1D1700D5463 /* Pods */,
+				AF150C2869DE20A8DEBB3E0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +87,49 @@
 			isa = PBXGroup;
 			children = (
 				C76FB97820B15483008FAE4F /* AppDelegate.swift */,
-				C76FB97A20B15483008FAE4F /* ViewController.swift */,
-				C76FB97C20B15483008FAE4F /* Main.storyboard */,
-				C76FB97F20B15483008FAE4F /* Assets.xcassets */,
-				C76FB98120B15483008FAE4F /* LaunchScreen.storyboard */,
+				C76FB98A20B15494008FAE4F /* Model */,
+				C76FB98C20B154AB008FAE4F /* View */,
+				C76FB98D20B154B4008FAE4F /* Controller */,
+				C76FB98E20B154E9008FAE4F /* Supporting Files */,
 				C76FB98420B15483008FAE4F /* Info.plist */,
 			);
 			path = "Easy To-Do";
+			sourceTree = "<group>";
+		};
+		C76FB98A20B15494008FAE4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C76FB99320B155C3008FAE4F /* Category.swift */,
+				C76FB99520B155D8008FAE4F /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C76FB98C20B154AB008FAE4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C76FB97C20B15483008FAE4F /* Main.storyboard */,
+				C76FB98120B15483008FAE4F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C76FB98D20B154B4008FAE4F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C76FB97A20B15483008FAE4F /* CategoryViewController.swift */,
+				C76FB98F20B15568008FAE4F /* TodoListViewController.swift */,
+				C76FB99120B1558F008FAE4F /* SwipeTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C76FB98E20B154E9008FAE4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76FB97F20B15483008FAE4F /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C76FB98720B15483008FAE4F /* Build configuration list for PBXNativeTarget "Easy To-Do" */;
 			buildPhases = (
+				5EAB801904C6FF859A900FCE /* [CP] Check Pods Manifest.lock */,
 				C76FB97120B15483008FAE4F /* Sources */,
 				C76FB97220B15483008FAE4F /* Frameworks */,
 				C76FB97320B15483008FAE4F /* Resources */,
+				2DB6D2F7C044B43743D28101 /* [CP] Embed Pods Frameworks */,
+				86429E41D106A86999D8E7A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +202,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DB6D2F7C044B43743D28101 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Easy To-Do/Pods-Easy To-Do-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easy To-Do/Pods-Easy To-Do-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EAB801904C6FF859A900FCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Easy To-Do-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86429E41D106A86999D8E7A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easy To-Do/Pods-Easy To-Do-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C76FB97120B15483008FAE4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C76FB97B20B15483008FAE4F /* ViewController.swift in Sources */,
+				C76FB99220B1558F008FAE4F /* SwipeTableViewController.swift in Sources */,
+				C76FB99420B155C3008FAE4F /* Category.swift in Sources */,
+				C76FB99020B15568008FAE4F /* TodoListViewController.swift in Sources */,
+				C76FB97B20B15483008FAE4F /* CategoryViewController.swift in Sources */,
+				C76FB99620B155D8008FAE4F /* Item.swift in Sources */,
 				C76FB97920B15483008FAE4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,10 +407,11 @@
 		};
 		C76FB98820B15483008FAE4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D721DA7DC582FE6D710BFF3 /* Pods-Easy To-Do.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 392V4FN7B9;
+				DEVELOPMENT_TEAM = N6BW3K3684;
 				INFOPLIST_FILE = "Easy To-Do/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nury.Easy-To-Do";
@@ -287,10 +423,11 @@
 		};
 		C76FB98920B15483008FAE4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F21792D1406E58EE2ED402 /* Pods-Easy To-Do.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 392V4FN7B9;
+				DEVELOPMENT_TEAM = N6BW3K3684;
 				INFOPLIST_FILE = "Easy To-Do/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nury.Easy-To-Do";
